@@ -240,22 +240,18 @@ li .current {
     font-size: 14px;
     line-height: 1.71;
 }
-.benefits-icons-list {
-    display: flex;
-    gap: 30px;
-    margin-bottom: 30px;
-}
-
-
     
 .benefits-icon-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     height: 120px;
-    width: 270px;
+    width: 100%;
     background-color: var(--background-color-light);
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
+    border-radius: 4px;
+
+    margin-bottom: 30px;
 }
 /* ====================ACTIVITY SECTION========== */
 
@@ -366,9 +362,8 @@ li .current {
 }
 .clients-icon-link:hover,
 .clients-icon-link:focus {
-    border: 1px solid var(--accent-color);
+    border-color: var(--accent-color);
     fill: var(--accent-color);
-    border-radius: 4px;
 }
 
 
